@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{88A9D166-9711-4CD6-BE96-1C5B30010BF3}</ProjectGuid>
+    <ProjectGuid>{5AA8A6D6-EB44-4B71-863E-01BF37E1889C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>SendMailApp</RootNamespace>
     <AssemblyName>SendMailApp</AssemblyName>
@@ -67,6 +67,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Config.cs" />
     <Compile Include="ConfigWindow.xaml.cs">
       <DependentUpon>ConfigWindow.xaml</DependentUpon>
     </Compile>
