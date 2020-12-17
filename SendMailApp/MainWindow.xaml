@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:SendMailApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="1000" Loaded="Window_Loaded" Closed="Window_Closed">
-    <Grid Background="DarkOrange">
+    <Grid Background="Beige">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
